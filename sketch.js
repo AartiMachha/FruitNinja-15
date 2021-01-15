@@ -4,6 +4,7 @@ var score=0;
 var PLAY=1;
 var END=0;
 var gameState=1;
+var label=0;
 
 function preload(){
  swordImage=loadImage('sword.png');
@@ -66,6 +67,7 @@ function draw(){
   drawSprites();
   
   text("score: "+ score,300,30);
+  text('FruitNinja',200,200);
 }
 
 function fruits(){
