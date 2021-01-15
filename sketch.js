@@ -68,7 +68,8 @@ function draw(){
   
   text("score: "+ score,300,30);
   fill('darkblue');
-  text('FruitNinja',200,30);
+  textSize(12);
+  text('Fruit Ninja',200,30);
 }
 
 function fruits(){
