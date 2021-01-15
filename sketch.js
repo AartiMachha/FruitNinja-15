@@ -67,6 +67,7 @@ function draw(){
   drawSprites();
   
   text("score: "+ score,300,30);
+  fill('darkblue');
   text('FruitNinja',200,30);
 }
 
