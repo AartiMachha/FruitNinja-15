@@ -67,7 +67,7 @@ function draw(){
   drawSprites();
   
   text("score: "+ score,300,30);
-  text('FruitNinja',200,200);
+  text('FruitNinja',200,30);
 }
 
 function fruits(){
